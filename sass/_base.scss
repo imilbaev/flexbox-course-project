@@ -30,6 +30,9 @@ Grey dark 3: #999
   --color-grey-dark-3: #999;
 
   --shadow-dark: 0 2rem 6rem rbga(0, 0, 0, 0.3);
+  --shadow-light: 0 2rem 5rem rgba(0, 0, 0, 0.06);
+
+  --line: 1px solid var(--color-grey-light-2);
 }
 
 * {
@@ -41,11 +44,11 @@ Grey dark 3: #999
 *::before,
 *::after {
   box-sizing: inherit;
-  font-size: 62.5%;
 }
 
 html {
   box-sizing: border-box;
+  font-size: 62.5%; // 1rem = 10px, 10px/16px = 62.5%
 }
 
 body {
